@@ -587,7 +587,7 @@ class DirectorView extends ControllerBase
     {
         static $limits = array();
 
-        $key = "1_{$categ}";
+        $key = "{$name}_{$categ}";
         if (isset($limits[$key])) {
             $limit = $limits[$key];
         } else {
